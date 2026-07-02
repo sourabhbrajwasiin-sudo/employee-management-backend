@@ -22,8 +22,10 @@ server.get("/getProducts",async(req,res)=>{
     }
 })
 
-server.listen(9000,()=>{
-    console.log("server running at : http://localhost:9000")
-})
+const PORT = process.env.PORT || 9000;
+
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
 
 data()
