@@ -1,6 +1,6 @@
 const products = require("../model/usermodel.js")
 
-const Data = require("../Data.Js")
+const Data = require("../data.js")
 
 
 const data = async () => {
